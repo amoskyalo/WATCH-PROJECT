@@ -1,0 +1,97 @@
+[
+	{
+		"image": "products/01.jpg",
+		"title": "Product title",
+		"description": "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
+		"price": "5600",
+		"discount": "200",
+		"id": 1
+	},
+	{
+		"image": "products/02.jpg",
+		"title": "Product title",
+		"description": "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
+		"price": "7840",
+		"discount": "200",
+		"id": 1
+	},
+	{
+		"image": "products/03.jpg",
+		"title": "Product title",
+		"description": "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
+		"price": "4500",
+		"discount": "200",
+		"id": 1
+	},
+	{
+		"image": "products/04.jpg",
+		"title": "Product title",
+		"description": "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
+		"price": "7990",
+		"discount": "200",
+		"id": 10
+	},
+	{
+		"image": "products/05.jpg",
+		"title": "Product title",
+		"description": "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
+		"price": "2500",
+		"discount": "200",
+		"id": 10
+	},
+	{
+		"image": "products/06.jpg",
+		"title": "Product title",
+		"description": "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
+		"price": "5210",
+		"discount": "200",
+		"id": 5
+	},{
+		"image": "products/01.jpg",
+		"title": "Product title",
+		"description": "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
+		"price": "5600",
+		"discount": "200",
+		"id": 10
+	},
+	{
+		"image": "products/02.jpg",
+		"title": "Product title",
+		"description": "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
+		"price": "7840",
+		"discount": "200",
+		"id": 5
+	},
+	{
+		"image": "products/03.jpg",
+		"title": "Product title",
+		"description": "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
+		"price": "4500",
+		"discount": "200",
+		"id": 5
+	},
+	{
+		"image": "products/04.jpg",
+		"title": "Product title",
+		"description": "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
+		"price": "7990",
+		"discount": "200",
+		"id": 5
+	},
+	{
+		"image": "products/05.jpg",
+		"title": "Product title",
+		"description": "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
+		"price": "2500",
+		"discount": "200",
+		"id": 5
+	},
+	{
+		"image": "products/06.jpg",
+		"title": "Product title",
+		"description": "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
+		"price": "5210",
+		"discount": "200",
+		"id": 5
+	}
+]

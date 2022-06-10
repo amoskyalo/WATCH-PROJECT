@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<meta name="description" content="How to fetch data stored in a json file">
+	<!--remix icon-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<!--google font-->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+
+	<!--stylesheets-->
+	<link rel="stylesheet" href="styles.css">
+
+	<title>My watch collection</title>
+</head>
+<body>
+	<!--==nav bar start==-->
+	<div class="nav">
+		<div class="nav-logo">
+			<p><span>A</span>mos WC</p>
+		</div>
+		<form action="#" class="form">
+			<input type="text" placeholder="search products,brands and categories">
+			<button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+		</form>
+		<div class="account">
+			<div class="dropdown">
+				<button onclick="myFunction()" class="dropbtn"><i class="fa fa-user" aria-hidden="true"></i> Account</button>
+				<div id="myDropdown" class="dropdown-content">
+				  <a href="#" class="active">SIGN IN</a>
+				  <a href="#"><i class="fa fa-shopping-basket" aria-hidden="true"></i>Orders</a>
+				</div>
+			  </div>
+		</div>
+		<div class="cart">
+			<p><i class="fa fa-cart-plus" aria-hidden="true"></i> cart</p>
+		</div>
+	</div>
+<!--==nav bar end==-->
+	<div class="body-content">
+	<!--==header text start==-->
+	<div class="header-section">
+		<h2>Amos Watch Collection</h2>
+	</div>
+	<!--==header text end==-->
+	<!--==body container start==-->
+	<div class="container">
+		<!--==Products section start==-->`
+		<div class="products"></div>
+		<!--==Products section end==-->
+
+	</div>
+    </div>
+	<!--==body container end==-->
+	
+	
+	
+	
+
+	<script src="script.js"></script> 
+</body>
+</html>
