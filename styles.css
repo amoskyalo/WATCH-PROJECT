@@ -123,11 +123,22 @@ body{
 	height: 40vh;
 	padding-top: 20px;
 }
-
-.container .products{
+.container .gold{
+	padding-top: 32px;
+	box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+.container .gold h2{
+	text-align: center;
+	font-size: 24px;
+	font-weight: 900;
+}
+.container .gold .gold-p{
+	margin: 24px 0px 0px 24px;
+}
+.container .gold .gold-watch{
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(20%, auto));
-	grid-gap: 24px;
+	grid-gap: 16px;
 	position: relative;
 	padding: 20px;
 	border-radius: 40px;
@@ -135,11 +146,10 @@ body{
 
 .product{
 	padding: 10px;
-	box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
 	transition: all 0.4s ease-in-out;
 }
 .product:hover{
-	transform: scale(1.1);
+	box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
 }
 .product img{
 	width: 100%;
@@ -191,16 +201,4 @@ body{
 
 .product .cart i{
 	padding-left: 10px;
-}
-@media(max-width: 768px){
-	/* .container .products{
-		width: 100%;
-		margin: auto;
-		display: grid;
-		grid-template-columns:50% 50%;
-	} */
-	.container .products{
-		display: flex;
-		flex-direction: column;
-	}
 }

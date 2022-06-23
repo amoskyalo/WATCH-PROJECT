@@ -1,9 +1,3 @@
-// // async function jsonFile(){
-// // 	const response = await fetch('products.json');
-// // 	const data = await response.json();
-// // 	console.log(data)
-// // }
-// jsonFile()
 
 let http = new XMLHttpRequest();
 http.open('get', 'products.json', true);
@@ -11,9 +5,10 @@ http.send();
 http.onload = function(){
 	if(this.readyState == 4 && this.status == 200){
 		let products = JSON.parse(this.responseText);
-		let output = "";
-		for(let item of products){
-			output += `
+		let gold = products.filter(goldWatches=> goldWatches.category == "gold");
+		let output1 = "";
+		for(let item of gold){
+			output1 += `
 				<div class="product">
 					<img src="${item.image}" alt="${item.description}">
 					<p class="title">${item.title}</p>
@@ -27,13 +22,11 @@ http.onload = function(){
 					<p class="cart">Add to cart <i class="fa fa-cart-plus" aria-hidden="true"></i></p>
 				</div>
 			`;
-			if(item.id === 1){
-				console.log('true');
-			}
 		}
-		document.querySelector(".products").innerHTML = output;
+	document.querySelector(".gold-watch").innerHTML = output1;
 	}
 } 
+
 
 function myFunction() {
 	document.getElementById("myDropdown").classList.toggle("show");
@@ -50,3 +43,11 @@ function myFunction() {
 	  }
 	}
   }
+
+const data = ["Amos", "Kyalo", "Mwangangi", "Busses"];
+
+const dataLength = data.filter(dataLengthOutput=>{
+	if(dataLengthOutput.length == 9){
+		return dataLengthOutput;
+	};
+});
