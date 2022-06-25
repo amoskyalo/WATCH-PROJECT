@@ -5,7 +5,7 @@
 		"description": "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
 		"price": "5600",
 		"discount": "200",
-		"category": "calcium"
+		"category": "gold"
 	},
 	{
 		"image": "products/02.jpg",
@@ -45,7 +45,7 @@
 		"description": "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
 		"price": "7990",
 		"discount": "200",
-		"category": "silver"
+		"category": "gold"
 	},
 	{
 		"image": "products/05.jpg",
@@ -53,7 +53,7 @@
 		"description": "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
 		"price": "2500",
 		"discount": "200",
-		"category": "silver"
+		"category": "gold"
 	},
 	{
 		"image": "products/06.jpg",
@@ -61,14 +61,14 @@
 		"description": "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
 		"price": "5210",
 		"discount": "200",
-		"category": "silver"
+		"category": "gold"
 	},{
 		"image": "products/01.jpg",
 		"title": "Product title",
 		"description": "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
 		"price": "5600",
 		"discount": "200",
-		"category": "diamond"
+		"category": "gold"
 	},
 	{
 		"image": "products/02.jpg",
@@ -76,7 +76,7 @@
 		"description": "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
 		"price": "7840",
 		"discount": "200",
-		"category": "diamond"
+		"category": "gold"
 	},
 	{
 		"image": "products/03.jpg",
@@ -84,7 +84,7 @@
 		"description": "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
 		"price": "4500",
 		"discount": "200",
-		"category": "diamond"
+		"category": "gold"
 	},
 	{
 		"image": "products/04.jpg",
@@ -92,7 +92,7 @@
 		"description": "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
 		"price": "7990",
 		"discount": "200",
-		"category": "quartz"
+		"category": "gold"
 	},
 	{
 		"image": "products/05.jpg",
@@ -100,7 +100,7 @@
 		"description": "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
 		"price": "2500",
 		"discount": "200",
-		"category": "quartz"
+		"category": "gold"
 	},
 	{
 		"image": "products/06.jpg",
@@ -108,6 +108,6 @@
 		"description": "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
 		"price": "5210",
 		"discount": "200",
-		"category": "quartz"
+		"category": "diamond"
 	}
 ]

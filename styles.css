@@ -3,13 +3,13 @@
 	padding: 0;
 	box-sizing: border-box;
 }
-
 body{
 	font-family: 'Montserrat', sans-serif;
 	color: #555;
+	height: 150vh;
 }
 .nav{
-	position: sticky;
+	position: fixed;
 	top: 0;
 	width: 100%;
 	display: flex;
@@ -27,9 +27,11 @@ body{
 	width: 15%;
 	font-weight: 900;
 	font-size: 20px;
-	border: 1px solid black;
 	background-color: #3e628f;
-	border-radius: 16px;
+	border-radius: 40px;
+	padding: 8px;
+	font-size: 20px;
+	letter-spacing: 8px;
 }
 .nav .nav-logo span{
 	color: red;
@@ -37,24 +39,25 @@ body{
 	font-style: italic;
 }
 .form{
-	display: flex;
-	background-color: white;
-	margin-left: 24px;
-	width: 100%;
-	max-width: 360px;
-	padding: 4px 8px;
-	border: 1px solid #555;
-	border-radius: 24px;
+	display: flex !important;
+	background-color: white !important;
+	margin-left: 24px !important;
+	width: 100% !important;
+	max-width: 360px !important;
+	padding: 4px 8px !important;
+	border: 1px solid #555 !important;
+	border-radius: 24px !important;
 }
 .form input{
-	flex: 1;
-	border: none;
-	outline: none;
+	flex: 1 !important;
+	border: none !important;
+	outline: none !important;
+	background-color: white !important;
 }
 .form button{
-	background: transparent;
-	border: none;
-	font-size: 16px;
+	background: transparent !important;
+	border: none !important;
+	font-size: 16px !important;
 }
 .account{
 	margin-left: 24px;
@@ -123,33 +126,54 @@ body{
 	height: 40vh;
 	padding-top: 20px;
 }
-.container .gold{
-	padding-top: 32px;
-	box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+.container{
+	background-color: #eeeeee;
 }
-.container .gold h2{
+.container .containers{
+	padding-top: 32px;
+	border-bottom: 5px solid #fff;
+}
+.container .containers h2{
 	text-align: center;
 	font-size: 24px;
 	font-weight: 900;
 }
-.container .gold .gold-p{
+.container .containers .headings{
 	margin: 24px 0px 0px 24px;
 }
-.container .gold .gold-watch{
-	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(20%, auto));
-	grid-gap: 16px;
+.watch-section{
+	overflow: hidden;
+}
+
+.container .containers .watch-section .items{
+	display: flex;
+	gap: 8px;
+	width: 350%;
 	position: relative;
 	padding: 20px;
 	border-radius: 40px;
+	transition: 1s ease-in-out;
+}
+.watch-section .arrows{
+	position: relative;
+	text-align: center;
+	margin-bottom: 8px;
+	cursor: pointer;
+	font-size: 24px;
+}
+.watch-section .arrows p{
+	word-spacing: 16px;
 }
 
 .product{
 	padding: 10px;
 	transition: all 0.4s ease-in-out;
+	width: 200px; 
+	height: 100%;
+	box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
 }
 .product:hover{
-	box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+	transform: scale(1.1);
 }
 .product img{
 	width: 100%;
@@ -201,4 +225,78 @@ body{
 
 .product .cart i{
 	padding-left: 10px;
+}
+
+/*FOOTER*/
+footer{
+	width: 100%;
+	background-color: #323232;
+	color: #fff;
+	margin-top: 16px;
+	padding-bottom: 24px;
+}
+footer .contact-us{
+	display: flex;
+	justify-content: space-around;
+}
+footer h2{
+	text-align: center;
+	padding-top: 24px;
+	margin: 32px 0;
+	font-size: 32px;
+}
+.social{
+	display: flex;
+	flex-direction: column;
+}
+.social a{
+	margin: 16px 0 0 24px;
+	font-size: 24px;
+	color: #fff;
+	text-decoration: none;
+}
+.social p, .mail p, .map p{
+	margin-bottom: 24px;
+	font-size: 18px;
+}
+
+.form-2{
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+}
+.mail{
+	width: 24%;
+}
+input{
+	width: 100%;
+	padding: 8px;
+	outline: none;
+	border: none;
+	margin-bottom: 0;
+	border-radius: 10px;
+	background-color: #eeeeee;
+}
+
+textarea{
+	width: 100%;
+	outline: none;
+	border:  none;
+	background-color: #eeeeee;
+}
+input[type="submit"]{
+	width: 40%;
+	background-color: #3e628f;
+	cursor: pointer;
+	font-size: 18px;
+}
+
+footer .copyright{
+	text-align: center;
+	margin-top: 16px;
+	font-size: 20px;
+	color:#fff;
+}
+footer .copyright a{
+	color: #fff;
 }
