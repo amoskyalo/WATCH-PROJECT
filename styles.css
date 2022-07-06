@@ -5,7 +5,7 @@
 }
 body{
 	font-family: 'Montserrat', sans-serif;
-	color: #555;
+	background-color: #eee;
 	height: 150vh;
 }
 .nav{
@@ -31,7 +31,6 @@ body{
 	border-radius: 40px;
 	padding: 8px;
 	font-size: 20px;
-	letter-spacing: 8px;
 }
 .nav .nav-logo span{
 	color: red;
@@ -53,6 +52,7 @@ body{
 	border: none !important;
 	outline: none !important;
 	background-color: white !important;
+	padding: 6px;
 }
 .form button{
 	background: transparent !important;
@@ -114,24 +114,81 @@ body{
   }
 
 /*body section*/
-.body-content{
-	width: 75%;
-	margin: auto;
-}
 .header-section{
+	width: 90%;
+	margin: auto;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	background-color: wheat;
 	height: 40vh;
 	padding-top: 20px;
+	font-size: 40px;
 }
+.section{
+	display: grid;
+	grid-template-columns: 25% 75%;
+	width: 90%;
+	gap: 10px;
+	margin: auto;
+}
+/*aside*/
+.aside{
+	background-color: #fff;
+	box-shadow: 0 0 10px #fff;
+	margin-top: 1rem;
+	height: fit-content;
+	border-radius: 5px;
+	padding: 8px;
+}
+.flex{
+	display: flex !important;
+	flex-direction: column !important;
+	padding-bottom: 8px !important;
+	padding-top: 8px !important;
+	border-bottom: 1px solid rgb(233, 226, 226) !important;
+}
+.flex:last-of-type{
+	border-bottom: none !important;
+	padding-bottom: 16px !important;
+}
+.padding{
+	margin-left: 1rem !important;
+	font-size: 17px !important;
+}
+#sex, .sell{
+	margin: 1rem 0 0 1rem !important;
+}
+.range button{
+	float: right !important;
+	margin-right: 12px !important;
+	background-color: orangered !important;
+	padding: 4px !important;
+	font-size: 12px !important;
+	border: none !important;
+	border-radius: 2px !important;
+	cursor: pointer !important;
+}
+
+.range-selector{
+	margin-top: 16px;
+}
+.range-input-label{
+	font-size: 100px;
+}
+.origin label{
+	margin: 1rem 0 0 1rem !important;
+}
+/*container*/
 .container{
-	background-color: #eeeeee;
+	background-color: #fff;
+	margin-top:  1rem;
+	box-shadow: 0 0 5px #fff;
+	border-radius: 5px;
 }
 .container .containers{
 	padding-top: 32px;
-	border-bottom: 5px solid #fff;
+	border-bottom: 5px solid #eee;
 }
 .container .containers h2{
 	text-align: center;
@@ -168,7 +225,7 @@ body{
 .product{
 	padding: 10px;
 	transition: all 0.4s ease-in-out;
-	width: 200px; 
+	max-width: 200px; 
 	height: 100%;
 	box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
 }
@@ -182,20 +239,20 @@ body{
 
 .product .title{
 	text-align: center;
-	font-size: 15px;
+	font-size: 12px;
 	padding: 8px 0;
 	font-weight: 600;
 	text-transform: uppercase;
 }
 
 .product .description{	
-	font-size: 12px;
+	font-size: 10px;
 }
 
 .product .price{
 	text-align: center;
 	font-weight: 600;
-	font-size: 17px;
+	font-size: 10px;
 	color: #9b0b03;
 	padding-top: 8px;
 	font-family: sans-serif;
@@ -215,10 +272,10 @@ body{
 
 .product .cart{
 	text-align: center;
-	padding: 4px 0;
+	padding: 2px 0;
 	background-color: #3e628f;
 	color: white;
-	font-size: 18px;
+	font-size: 13px;
 	cursor: pointer;
 	margin-top: 8px;
 }
@@ -268,7 +325,7 @@ footer h2{
 .mail{
 	width: 24%;
 }
-input{
+.input{
 	width: 100%;
 	padding: 8px;
 	outline: none;

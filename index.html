@@ -9,6 +9,7 @@
 	<link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 	<!--google font-->
+	<script src="https://cdn.jsdelivr.net/gh/maxshuty/accessible-web-components@latest/dist/simpleRange.min.js"></script>
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
@@ -38,19 +39,54 @@
 			  </div>
 		</div>
 		<div class="cart">
-			<p><i class="fa fa-cart-plus" aria-hidden="true"></i> cart</p>
+			<p><i class="fa fa-cart-plus" aria-hidden="true"></i> Cart</p>
 		</div>
 	</div>
 <!--==nav bar end==-->
 	<div class="body-content">
-		
+	
 	<!--==header text start==-->
 	<div class="header-section">
-		<h2>Watch Collection</h2>
+		<h2>Amos' Watch Collection</h2>
 	</div>
 	<!--==header text end==-->
 
 	<!--==body container start==-->
+	<div class="section">
+		<!--==Aside start==-->
+		<div class="aside">
+			<div class="gender flex">
+				<h2 class="padding">Gender</h2>
+				<label for=""><input type="checkbox" id="sex"> Male</label>
+				<label for=""><input type="checkbox" id="sex"> Female</label>
+				<label for=""><input type="checkbox" id="sex"> Unisex</label>
+			</div>
+			<div class="range flex">
+				<h2 class="padding">Price range <span class="float"><button>APPLY</button></span></h2>
+				<div class="range-selector">
+					<range-selector
+					  id="rangeSelector1"
+					  min-label="Minimum"
+					  max-label="Maximum"
+					  min-range="1500"
+					  max-range="10000"
+					  inputs-for-labels
+					/>
+				  </div>
+			</div>
+			<div class="origin flex">
+				<h2 class="padding">Origin</h2>
+				<label for="abroad"><input type="checkbox" id="abroad" value="abroad"> Shipped from abroad</label>
+			</div>
+			<div class="sale-rate flex">
+				<h2 class="padding">Sell rate</h2>
+				<label for="eighty" class="sell"><input type="radio" name="rate" value="80%" id="eighty"> 80% or more</label>
+				<label for="seventy" class="sell"><input type="radio" name="rate" value="70%" id="seventy"> 70% or more</label>
+				<label for="sixty" class="sell"><input type="radio" name="rate" value="60%" id="sixty"> 60% or more</label>
+				<label for="fifty" class="sell"><input type="radio" name="rate" value="50%" id="fifty"> 50% or more</label>
+			</div>
+		</div>
+		<!--==Aide end==-->
 	<div class="container">
 		<!--==Products section start==-->
 
@@ -74,9 +110,9 @@
 			<p class="headings">Get the best collection of diamond watches for yourself and your loved ones...
 			</p>
 			<div class="watch-section">
-				<div class="items slider diamond"></div>
+				<div class="items slider2 diamond"></div>
 				<div class="arrows">
-					<p><i class="fa fa-long-arrow-left left"></i> explore 	<i class="fa fa-long-arrow-right right"></i></p>
+					<p><i class="fa fa-long-arrow-left left2"></i> explore 	<i class="fa fa-long-arrow-right right2"></i></p>
 				</div>
 			</div>
 		</div>
@@ -88,9 +124,9 @@
 			<p class="headings">Get the best collection of diamond watches for yourself and your loved ones...
 			</p>
 			<div class="watch-section">
-				<div class="items slider silver"></div>
+				<div class="items slider3 silver"></div>
 				<div class="arrows">
-					<p><i class="fa fa-long-arrow-left left"></i> explore 	<i class="fa fa-long-arrow-right right"></i></p>
+					<p><i class="fa fa-long-arrow-left left3"></i> explore 	<i class="fa fa-long-arrow-right right3"></i></p>
 				</div>
 			</div>
 		</div>
@@ -98,6 +134,7 @@
 		<!--==Products section end==-->
 	</div>
     </div>
+</div>
 	<!--==body container end==-->
 
 	<!--==footer start ==-->
@@ -123,15 +160,15 @@
 				<p><i class="ri-chat-3-line"></i> leave us your feedback...</p>
 				<form class="form-2" action="#">
 					<label for="name">
-						<input type="text" placeholder="Enter your name" id="name">
+						<input type="text" placeholder="Enter your name" id="name" class="input">
 					</label>
 					<label for="email">
-						<input type="email" placeholder="Enter your email" is="email">
+						<input type="email" placeholder="Enter your email" id="email" class="input">
 					</label>
 					<label for="message">
 						<textarea  id="message" cols="30" rows="7" placeholder="Leave us a message"></textarea>
 					</label>
-					<input type="submit" value="Submit">
+					<input type="submit" value="Submit" class="input">
 				</form>
 			</div>
 		</div>

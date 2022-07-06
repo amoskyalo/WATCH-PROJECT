@@ -1,4 +1,5 @@
 [
+	{"These are gold watches": "13"},
 	{
 		"image": "products/01.jpg",
 		"title": "Product title",                                                  
@@ -102,6 +103,8 @@
 		"discount": "200",
 		"category": "gold"
 	},
+
+	{"These are diamond watches": "7"},
 	{
 		"image": "products/06.jpg",
 		"title": "Product title",
@@ -109,5 +112,119 @@
 		"price": "5210",
 		"discount": "200",
 		"category": "diamond"
+	},
+	{
+		"image": "products/06.jpg",
+		"title": "Product title",
+		"description": "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
+		"price": "5210",
+		"discount": "200",
+		"category": "diamond"
+	},
+	{
+		"image": "products/06.jpg",
+		"title": "Product title",
+		"description": "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
+		"price": "5210",
+		"discount": "200",
+		"category": "diamond"
+	},
+
+	{
+		"image": "products/06.jpg",
+		"title": "Product title",
+		"description": "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
+		"price": "5210",
+		"discount": "200",
+		"category": "diamond"
+	},
+	{
+		"image": "products/06.jpg",
+		"title": "Product title",
+		"description": "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
+		"price": "5210",
+		"discount": "200",
+		"category": "diamond"
+	},
+	{
+		"image": "products/06.jpg",
+		"title": "Product title",
+		"description": "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
+		"price": "5210",
+		"discount": "200",
+		"category": "diamond"
+	},
+	{
+		"image": "products/06.jpg",
+		"title": "Product title",
+		"description": "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
+		"price": "5210",
+		"discount": "200",
+		"category": "diamond"
+	},
+	{"These are silver watches": "8"},
+	{
+		"image": "products/06.jpg",
+		"title": "Product title",
+		"description": "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
+		"price": "5210",
+		"discount": "200",
+		"category": "silver"
+	},
+	{
+		"image": "products/06.jpg",
+		"title": "Product title",
+		"description": "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
+		"price": "5210",
+		"discount": "200",
+		"category": "silver"
+	},
+	{
+		"image": "products/06.jpg",
+		"title": "Product title",
+		"description": "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
+		"price": "5210",
+		"discount": "200",
+		"category": "silver"
+	},
+	{
+		"image": "products/06.jpg",
+		"title": "Product title",
+		"description": "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
+		"price": "5210",
+		"discount": "200",
+		"category": "silver"
+	},
+	{
+		"image": "products/06.jpg",
+		"title": "Product title",
+		"description": "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
+		"price": "5210",
+		"discount": "200",
+		"category": "silver"
+	},
+	{
+		"image": "products/06.jpg",
+		"title": "Product title",
+		"description": "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
+		"price": "5210",
+		"discount": "200",
+		"category": "silver"
+	},
+	{
+		"image": "products/06.jpg",
+		"title": "Product title",
+		"description": "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
+		"price": "5210",
+		"discount": "200",
+		"category": "silver"
+	},
+	{
+		"image": "products/06.jpg",
+		"title": "Product title",
+		"description": "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
+		"price": "5210",
+		"discount": "200",
+		"category": "silver"
 	}
 ]
